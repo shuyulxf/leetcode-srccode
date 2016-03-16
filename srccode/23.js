@@ -9,6 +9,7 @@
  * @param {ListNode[]} lists
  * @return {ListNode}
  */
+
 function ListNode(val) {
     this.val = val;
     this.next = null;
