@@ -9,7 +9,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
- 
+
 //add a header node to save the prev node info 
 //because to swap we need know the prev node
 var swapPairs = function(head) {
@@ -27,5 +27,6 @@ var swapPairs = function(head) {
         cur = head;
         head = nn;
     }  
+    
     return rlt;
 };
