@@ -24,3 +24,5 @@ var longestValidParentheses = function(s) {
 
     return maxLen;
 };
+
+console.log(longestValidParentheses("(()()"));
